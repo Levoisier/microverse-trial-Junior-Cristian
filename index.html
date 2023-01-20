@@ -3,15 +3,114 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>Fork Me! FCC: Test Suite Template</title>
-  <link rel="stylesheet" href="css/style.css">
+  <title>CRISTIAN & JUNIOR TEAM</title>
+  <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
   <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+  <section id="main" id="main">
+    <div class="container">
+      <header class="header">
+        <h1 id="title" class="text-center">Title Of The Form Page</h1>
+        <p id="description" class="description text-center">
+          Lorem ipsum dolor sit amet consectetur adipisicing
+        </p>
+      </header>
+      <form id="survey-form">
+        <div class="form-group">
+          <label id="name-label" for="name">Name</label>
+          <input type="text" name="name" id="name" class="form-control" placeholder="Enter your name" required />
+        </div>
+        <div class="form-group">
+          <label id="email-label" for="email">Email</label>
+          <input type="email" name="email" id="email" class="form-control" placeholder="Enter your Email" required />
+        </div>
+        <div class="form-group">
+          <label id="number-label" for="number">Age<span class="clue">(optional)</span></label>
+          <input type="number" name="age" id="number" min="10" max="99" class="form-control" placeholder="Age" />
+        </div>
+        <div class="form-group">
+          <p>Lorem ipsum dolor sit amet</p>
+          <select id="dropdown" name="role" class="form-control" required>
+            <option disabled selected value>consectetur adipisicing</option>
+            <option value="student">consectetur</option>
+            <option value="job">Rerum</option>
+            <option value="learner">aliquid</option>
+            <option value="preferNo">natus</option>
+            <option value="other">molestiae</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing</p>
+          <label>
+            <input name="user-recommend" value="definitely" type="radio" class="input-radio" checked />Lorem</label>
+          <label>
+            <input name="user-recommend" value="maybe" type="radio" class="input-radio" />ipsum</label>
 
-  <h1>Hello World, we are software developers!</h1>
+          <label><input name="user-recommend" value="not-sure" type="radio" class="input-radio" />adipisicing</label>
+        </div>
 
+        <div class="form-group">
+          <p>Officia ipsam eveniet dolorum sit</p>
+          <select id="most-like" name="mostLike" class="form-control" required>
+            <option disabled selected value>Rerum aliquid natus</option>
+            <option value="challenges">consectetur</option>
+            <option value="projects">quod</option>
+            <option value="community">consectetur</option>
+            <option value="openSource">ex</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <p>
+            Officia ipsam eveniet dolorum consectetur
+            <span class="clue">(Check all that apply)</span>
+          </p>
+
+          <label><input name="prefer" value="front-end-projects" type="checkbox" class="input-checkbox" />Lorem
+            ipsum</label>
+          <label>
+            <input name="prefer" value="back-end-projects" type="checkbox" class="input-checkbox" />english
+            ipsum</label>
+          <label><input name="prefer" value="data-visualization" type="checkbox" class="input-checkbox" />spanish
+            ipsum</label>
+          <label><input name="prefer" value="challenges" type="checkbox" class="input-checkbox" />adipisicing
+            elit</label>
+          <label><input name="prefer" value="open-source-community" type="checkbox"
+              class="input-checkbox" />voluptatibus, libero</label>
+          <label><input name="prefer" value="gitter-help-rooms" type="checkbox" class="input-checkbox" />reprehenderit
+            architecto</label>
+          <label><input name="prefer" value="videos" type="checkbox" class="input-checkbox" />esse quam
+            consectetur</label>
+          <label><input name="prefer" value="city-meetups" type="checkbox" class="input-checkbox" />quam quam
+            consectetur</label>
+          <label><input name="prefer" value="wiki" type="checkbox" class="input-checkbox" />eaque
+            dignissimos</label>
+          <label><input name="prefer" value="forum" type="checkbox" class="input-checkbox" />Nemo
+            voluptatibus</label>
+          <label><input name="prefer" value="additional-courses" type="checkbox" class="input-checkbox" />deserunt
+            eosdeserunt eos</label>
+        </div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo voluptatibus, libero officia obcaecati
+        enim
+        voluptate nobis deserunt eos ullam nulla eaque dignissimos esse quam consectetur reprehenderit
+        architecto
+        porro totam et!
+        <div class="form-group">
+          <p>deserunt eos ullam nulla eaque dignissimos?</p>
+          <textarea id="comments" class="input-textarea" name="comment"
+            placeholder="Enter your comment here..."></textarea>
+        </div>
+
+        <div class="form-group">
+          <button type="submit" id="submit" class="submit-button">
+            Submit
+          </button>
+        </div>
+      </form>
+    </div>
+  </section>
   <script src="js/index.js"></script>
 </body>
 
